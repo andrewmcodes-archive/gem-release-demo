@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/andrewmcodes/gem-release-demo/compare/v1.0.0...v1.1.0) (2021-02-06)
+
+
+### Features
+
+* test commit ([6d6b84e](https://www.github.com/andrewmcodes/gem-release-demo/commit/6d6b84e170d113956e1fdb769e05f2297aafa146))
+
 ## 1.0.0 (2021-02-06)
 
 
