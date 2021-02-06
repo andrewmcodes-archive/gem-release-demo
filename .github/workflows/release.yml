@@ -14,4 +14,4 @@ jobs:
           release-type: ruby
           package-name: gem-release-demo
           bump-minor-pre-major: true
-          version-file: ./lib/gem/release/demo/version.rb
+          version-file: ../../lib/gem/release/demo/version.rb
