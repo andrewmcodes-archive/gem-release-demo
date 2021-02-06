@@ -1,0 +1,17 @@
+name: release
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: GoogleCloudPlatform/release-please-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: ruby
+          package-name: gem-release-demo
+          bump-minor-pre-major: true
+          version-file: ./lib/gem/release/demo/version.rb
